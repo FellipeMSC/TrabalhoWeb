@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Produtos</title>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="../index.html">Home</a>
+        </div>
+        <div>
+            <a id="link_login"></a>
+        </div>
+    </nav>
+    <header>
+        <h1>Produto</h1>
+    </header>
+    <main>
+        <img src="../imagens/produtos.jpg" alt="">
+        <form>
+            <input type="hidden" name="id" id="id"><br>
+            <label for="nome">Nome</label ><br>
+            <input type="text" name="nome" id="nome" placeholder="Nome"><br>
+            <label for="preço">Preço</label><br>
+            <input type="text" name="preço" id="preço" placeholder="Preço"><br>
+            <label for="quantidade">Quantidade</label><br>
+            <input type="text" name="quantidade" id="quantidade" placeholder="Quantidade"><br>
+            <button>Salvar</button>
+        </form>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <footer>
+        &copy; Fellipe.
+    </footer>
+</body>
+<script src="./produto.js" type="module"></script>
+
+</html>
