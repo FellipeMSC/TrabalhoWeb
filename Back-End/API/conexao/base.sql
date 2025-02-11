@@ -38,7 +38,7 @@ CREATE TABLE `funcionario` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb3;
 
 DROP TABLE IF EXISTS `fornecedor`;
-usuarios
+
 CREATE TABLE `fornecedor` (
   `id` int NOT NULL AUTO_INCREMENT,
   `nome` varchar(128) DEFAULT NULL,
